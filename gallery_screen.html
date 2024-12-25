@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatIsMe</title>
+    <title>Document</title>
     <link href="css/styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
 </head>
-
-<body class="body">
+<body>
     <header class="header" id="header">
         <div class="container">
             <div class="container_logo">
@@ -36,17 +34,31 @@
             <img class="icon_auth" src="img/icon_auth.png" />
         </div>
     </header>
-    <main class="main">
-        <section class="hero_block" id="hero-block">
-            <div class="container container_hero-block">
-                <img class="hero-block_img" src="img/hero-block.png" />
-                <div class="hero-block_content">
-                    <h1 class="hero-block_title"> Я, КОТ ЛУНЯ </h1>
-                    <p class="hero-block_text"> У меня нету много времени писать это, потому что Саша сейчас придет со
-                        школы. на этом сайте я скажу о себе. </p>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hero-block_link"> МЯУ МЯУ </a>
-                </div>
-            </div>
+    <main>
+        <section class="gallery" id="gallery">
+            <h2 class="gallery_title"> Галерея </h2>
+            <ul class="gallery_list">
+                <li class="gallery_item">
+                    <a href="img/gallery1.png" class="gallery_item lightzoom">
+                        <img src="img/gallery1.png" alt="" class="gallery_img"> 
+                    </a>
+                </li>
+                <li class="gallery_item">
+                    <a href="img/gallery2.png" class="gallery_item lightzoom">
+                        <img src="img/gallery2.png" alt="" class="gallery_img"> 
+                    </a>
+                </li>
+                <li class="gallery_item">
+                    <a href="img/gallery3.png" class="gallery_item lightzoom">
+                        <img src="img/gallery3.png" alt="" class="gallery_img"> 
+                    </a>
+                </li>
+                <li class="gallery_item">
+                    <a href="img/gallery4.png" class="gallery_item lightzoom">
+                        <img src="img/gallery4.png" alt="" class="gallery_img"> 
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
     <footer class="footer" id="footer">
@@ -65,7 +77,5 @@
     <script type="text/javascript">
  			jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
 		</script>
-
 </body>
-
 </html>

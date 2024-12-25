@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatIsMe</title>
+    <title>Document</title>
     <link href="css/styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
 </head>
 
-<body class="body">
+<body>
     <header class="header" id="header">
         <div class="container">
             <div class="container_logo">
@@ -20,10 +18,10 @@
             <nav class="nav">
                 <ul class="menu_list">
                     <li class="menu_item">
-                        <a href="#header" class="menu_link">Главная</a> 
+                        <a href="index.html" class="menu_link">Главная</a>
                     </li>
                     <li class="menu_item">
-                        <a href="about_screen.html" class="menu_link">Об авторе</a> 
+                        <a href="about_screen.html" class="menu_link">Об авторе</a>
                     </li>
                     <li class="menu_item">
                         <a href="video_screen.html" class="menu_link">Видео</a>
@@ -36,15 +34,15 @@
             <img class="icon_auth" src="img/icon_auth.png" />
         </div>
     </header>
-    <main class="main">
-        <section class="hero_block" id="hero-block">
-            <div class="container container_hero-block">
-                <img class="hero-block_img" src="img/hero-block.png" />
-                <div class="hero-block_content">
-                    <h1 class="hero-block_title"> Я, КОТ ЛУНЯ </h1>
-                    <p class="hero-block_text"> У меня нету много времени писать это, потому что Саша сейчас придет со
-                        школы. на этом сайте я скажу о себе. </p>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hero-block_link"> МЯУ МЯУ </a>
+    <main>
+        <section class="video" id="video">
+            <h2 class="video_title"> Видео </h2>
+            <div class="video_border">
+                <div class="video_container">
+                    <iframe class="video_content" src="https://www.youtube.com/embed/paWE-GvDO1c?si=pAHIb__MlPansfBU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -61,11 +59,6 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
-    <script type="text/javascript">
- 			jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
-		</script>
-
 </body>
 
 </html>
